@@ -2,4 +2,30 @@
     .wrapper_sambtn_ketua {
         flex-wrap: wrap;
     }
+
+    .visi,
+    .misi {
+        width: 100%;
+    }
+
+    .infor,
+.genda {
+    width: 100%;
+}
+
+.footer_ket img {
+    width: 250px;
+}
+
+.footer_ket {
+    margin: 0 15px;
+    width: 700px;
+    font-size: 10px;
+}
+
+.contact_footer {
+    font-size: 14px;
+    margin: 0 15px;
+}
+
 }

@@ -372,7 +372,7 @@ a {
 .content-awal {
     max-width: 100%;
     z-index: -999;
-    background: url("../image/bg-ummmmmmmmmm.jpg");
+    background: url("../image/bg-umm.jpg");
     background-position: center;
     background-size: cover;
     margin-top: 30px;
@@ -452,7 +452,7 @@ a {
 
 .visi,
 .misi {
-    width: 40%;
+    width: 44%;
 }
 
 .visi h1,
@@ -468,7 +468,7 @@ a {
     background-color: rgba(212, 181, 59, 0.5);
     color: white;
     padding: 10px;
-    margin: 15px 0;
+    margin: 15px 20px;
 }
 
 /* visi dan misi end*/
@@ -497,6 +497,7 @@ a {
 .divisi_3,
 .divisi_4,
 .divisi_5 {
+    margin: 20px;
     background-color: rgba(255, 255, 255, 1);
     padding: 20px;
     border-radius: 10px 10px 0px 0px;
@@ -573,11 +574,12 @@ a {
 .container_infor {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .infor,
 .genda {
-    width: 50%;
+    width: 44%;
 }
 
 .infor h1,
@@ -590,7 +592,7 @@ a {
 .card_genda {
     margin: 20px;
     padding: 10px;
-    background-color: #0E46A3;
+    background-color: #e6e6e6;
 }
 
 .card_infor img,
@@ -610,7 +612,6 @@ footer {
 .footer_flex {
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 .footer_ket img {
