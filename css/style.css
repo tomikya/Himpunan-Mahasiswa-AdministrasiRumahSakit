@@ -9,6 +9,8 @@
 /* navbar */
 /*=============== GOOGLE FONTS ===============*/
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
 /*=============== VARIABLES CSS ===============*/
 :root {
     --header-height: 3.5rem;
@@ -76,19 +78,6 @@ a {
     background-color: rgba(255, 255, 255);
     box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
     z-index: var(--z-fixed);
-    animation: downAnimation 1s ease-in;
-}
-
-@keyframes downAnimation {
-    from {
-        top: -100px;
-        opacity: 0;
-    }
-
-    to {
-        top: 0;
-        opacity: 1;
-    }
 }
 
 /*=============== NAV ===============*/
@@ -119,7 +108,9 @@ a {
 }
 
 .nav__logo img {
+    padding: 20px 20px 0px;
     width: 260px;
+    padding-top: 10px;
 }
 
 .nav__toggle {
@@ -162,6 +153,7 @@ a {
     }
 
     .header {
+        position: fixed;
         height: 6.7%;
     }
 
@@ -365,7 +357,17 @@ a {
     }
 }
 
+
 /* navbar end*/
+
+/* ROOT */
+:root {
+    --small-font: 6px;
+    --medium-font: 11px;
+    --big-font: 18px;
+}
+
+/* ROOT END */
 
 /* banner */
 .content-awal {
@@ -402,7 +404,7 @@ a {
 .bg_satuan {
     z-index: -9999;
     background: url("../image/bg.png") fixed center center;
-    background-size: 100 auto;
+    background-size: 100% auto;
 }
 
 .container_sambtn {
@@ -410,6 +412,7 @@ a {
 }
 
 .tittle_smbutn {
+    font-size: var(--big-font);
     text-align: center;
     padding: 50px 0;
 }
@@ -417,33 +420,19 @@ a {
 .wrapper_sambtn_ketua {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
     max-width: 100%;
 }
 
 .image_fpf_ketua img {
     padding-left: 10px;
-    width: 300px;
+    width: 200px;
 }
 
 .desk_ketua {
-    width: 80%;
+    /* width: 80%; */
     padding: 10px 40px;
 }
 
-.desk_ketua a {
-    text-align: center;
-    background-color: black;
-    color: white;
-    padding: 7px;
-    border-radius: 2px;
-    transition: all 0.5s;
-}
-
-.desk_ketua a:hover {
-    background-color: rgb(211, 211, 211);
-    color: black;
-}
 
 /* sambutan ketua umum end */
 
@@ -452,7 +441,6 @@ a {
 .container_vismisi {
     background-image: url(../image/bg-ummnewww.jpg);
     background-position: center;
-    background-attachment: fixed;
     background-size: cover;
     padding: 100px 0;
 }
@@ -460,7 +448,6 @@ a {
 .flex_visimisi {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -584,31 +571,34 @@ a {
 /* BEITAAAAAAA END */
 
 /* INFORMASI DAN AGEDA */
-.flex_container_infor_egenda {
-    max-width: 100%;
-    padding: 65px 0;
+.container_infor {
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.tittle_infor,
-.tittle_genda {
+.infor,
+.genda {
+    width: 50%;
+}
+
+.infor h1,
+.genda h1 {
     text-align: center;
+    padding: 20px 0;
 }
 
-.infor_content,
-.genda_content {
+.card_infor,
+.card_genda {
+    margin: 20px;
     padding: 10px;
-    width: 700px;
+    background-color: #0E46A3;
 }
 
-.infor_content img,
-.genda_content img {
+.card_infor img,
+.card_genda img {
     float: left;
-    width: 70px;
-    height: 70px;
 }
+
 
 /* INFORMASI DAN AGEDA END */
 
