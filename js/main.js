@@ -30,3 +30,10 @@ window.addEventListener('resize', function () {
 resize();
 
 // beritaaaaaa slider
+
+
+
+
+
+
+

@@ -1,7 +1,7 @@
 @media screen and (max-width: 878px) {
     .nav__logo img {
-        width: 230px;
-        padding-top: 0;
+        padding: 15px;
+        width: 290px;
     }
 
     .wrapper_sambtn_ketua {
@@ -19,7 +19,7 @@
 }
 
 .content-awal {
-    margin-top: 8%;
+    margin-top: 9%;
 }
 
 .tittle_smbutn {
