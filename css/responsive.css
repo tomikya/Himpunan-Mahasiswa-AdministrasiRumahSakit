@@ -1,7 +1,47 @@
+@media screen and (max-width: 1652px) {
+    .container_sambtn {
+        margin-top: -450px;
+    }
+    
+}
+@media screen and (max-width: 1452px) {
+    .container_sambtn {
+        margin-top: -690px;
+    }
+    
+}
+@media screen and (max-width: 1052px) {
+    .container_sambtn {
+        margin-top: -750px;
+    }
+    
+}
+@media screen and (max-width: 702px) {
+    .container_sambtn {
+        margin-top: -1950px;
+    }
+    
+}
+@media screen and (max-width: 702px) {
+    .container_sambtn {
+        margin-top: -1950px;
+    }
+    
+    .mySlides {
+        margin-top: 13%;
+        display: none;
+    }
+}
+
 @media screen and (max-width: 878px) {
+
+    .container_sambtn {
+        margin-top: -850px;
+    }
+
     .nav__logo img {
         padding: 15px;
-        width: 290px;
+        width: 240px;
     }
 
     .wrapper_sambtn_ketua {
@@ -17,6 +57,9 @@
 .genda {
     width: 100%;
 }
+
+/* banner */
+/* banner end */
 
 .content-awal {
     margin-top: 9%;
@@ -45,7 +88,7 @@
 
 /* sambutan ketua umum */
 .bg_satuan {
-    background: url("../image/gggg.png") fixed center center;
+    background: url("../image/bg.png") fixed center center;
     background-size: 100% auto;
 }
 /* sambutan ketua umum end */
